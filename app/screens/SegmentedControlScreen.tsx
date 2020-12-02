@@ -13,9 +13,14 @@ export const SegmentedControlScreen = () => {
     segmentContainer: {
       backgroundColor: colors.background3,
     },
+    segmentContainerCustom: {
+      backgroundColor: colors.background3,
+      borderRadius: 50,
+    },
     textStyle: {
       color: colors.text,
     },
+    activeContainer: {borderRadius: 50},
   });
   return (
     <AnimationView>
@@ -40,9 +45,10 @@ export const SegmentedControlScreen = () => {
         onChange={(idx) => setCurrIdx3(idx)}
         currentIndex={currIdx3}
         activeSegmentBackgroundColor={colors.orange}
-        containerStyle={styles.segmentContainer}
+        containerStyle={styles.segmentContainerCustom}
         textStyle={styles.textStyle}
         activeTextColor={'#FFF'}
+        activeContainerStyles={styles.activeContainer}
       />
     </AnimationView>
   );
