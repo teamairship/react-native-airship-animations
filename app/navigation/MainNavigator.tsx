@@ -5,11 +5,15 @@ import {
   DefaultTheme,
   NavigationContainer,
 } from '@react-navigation/native';
+
+// Screens
 import { SegmentedControlScreen } from '../screens/SegmentedControlScreen';
 import { Home } from '../screens/Home';
+import LikeButtonScreen from '../screens/LikeButtonScreen';
+
+// Theme
 import { useTheme } from '../context/ThemeContext';
 import { darkColors, lightColors } from '../theme/Colors';
-import LikeButtonScreen from '../screens/LikeButtonScreen';
 
 const Drawer = createDrawerNavigator();
 

@@ -1,30 +1,28 @@
 import React, { useState } from 'react';
 import { Animated } from 'react-native';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
-import { ThumbsUpSVG } from './SVG/ThumbsUpSVG';
 
 type Props = {
   toScaleValue?: number;
   friction?: number;
   tension?: number;
   colorTransitionDuration?: number;
-  primaryColor: string;
   backgroundColorStart: string;
   backgroundColorEnd: string;
   isPressed?: boolean;
   onPress?: () => {};
 };
 
-export const AnimatedLikeButton: React.FC<Props> = ({
+export const AnimatedButton: React.FC<Props> = ({
   toScaleValue = 0.5,
   friction = 3,
   tension = 80,
   colorTransitionDuration = 300,
-  primaryColor,
   backgroundColorStart,
   backgroundColorEnd,
   isPressed,
   onPress,
+  children,
 }) => {
   const [pressed, setPressed] = useState(isPressed ? isPressed : false);
   const pressedAnimatedValue = new Animated.Value(0);
@@ -75,12 +73,7 @@ export const AnimatedLikeButton: React.FC<Props> = ({
         style={{
           transform: [{ scale }],
         }}>
-        <ThumbsUpSVG
-          height={54}
-          width={63}
-          stroke={primaryColor}
-          fillColor={colorInterpolation}
-        />
+        {children}
       </Animated.View>
     </TouchableWithoutFeedback>
   );

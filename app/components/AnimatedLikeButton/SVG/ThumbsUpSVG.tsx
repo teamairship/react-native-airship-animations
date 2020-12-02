@@ -11,7 +11,7 @@ type Props = {
 
 const AnimatedPath = Animated.createAnimatedComponent(Path);
 
-const ThumbsUpSVG: React.FC<Props> = ({
+export const ThumbsUpSVG: React.FC<Props> = ({
   fillColor,
   stroke,
   height = 18,
@@ -27,5 +27,3 @@ const ThumbsUpSVG: React.FC<Props> = ({
     </Svg>
   );
 };
-
-export default ThumbsUpSVG;
