@@ -19,6 +19,7 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9863F24EE5AC269FA0FB9BC3 /* libPods-AirshipAnimations.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93850F32EC2E487EBB5FBEA7 /* libPods-AirshipAnimations.a */; };
 		98DAB4EEEFCEF16E9C5FB192 /* libPods-AirshipAnimations-AirshipAnimationsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EEB9AD3A078F280262D7D8 /* libPods-AirshipAnimations-AirshipAnimationsTests.a */; };
+		D908F4122577031D00A497C8 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = D908F4112577031D00A497C8 /* AppCenter-Config.plist */; };
 		E35D33A1B9F5F255976F2EC7 /* libPods-AirshipAnimations-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD14A567B9BC715EE7A7BFDA /* libPods-AirshipAnimations-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -44,12 +45,14 @@
 		00E356EE1AD99517003FC87E /* AirshipAnimationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirshipAnimationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* AirshipAnimationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirshipAnimationsTests.m; sourceTree = "<group>"; };
+		1326F6C5F63297EC70960F7A /* Pods-AirshipAnimations-tvOSTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirshipAnimations-tvOSTests.staging.xcconfig"; path = "Target Support Files/Pods-AirshipAnimations-tvOSTests/Pods-AirshipAnimations-tvOSTests.staging.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AirshipAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirshipAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AirshipAnimations/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AirshipAnimations/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AirshipAnimations/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AirshipAnimations/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AirshipAnimations/main.m; sourceTree = "<group>"; };
+		1E5DC653C14D35AB6C7C45E4 /* Pods-AirshipAnimations-AirshipAnimationsTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirshipAnimations-AirshipAnimationsTests.staging.xcconfig"; path = "Target Support Files/Pods-AirshipAnimations-AirshipAnimationsTests/Pods-AirshipAnimations-AirshipAnimationsTests.staging.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* AirshipAnimations-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirshipAnimations-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* AirshipAnimations-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AirshipAnimations-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DBF907BA3BFDB9CCECE9084 /* Pods-AirshipAnimations-AirshipAnimationsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirshipAnimations-AirshipAnimationsTests.debug.xcconfig"; path = "Target Support Files/Pods-AirshipAnimations-AirshipAnimationsTests/Pods-AirshipAnimations-AirshipAnimationsTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -58,14 +61,17 @@
 		65EEB9AD3A078F280262D7D8 /* libPods-AirshipAnimations-AirshipAnimationsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AirshipAnimations-AirshipAnimationsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AirshipAnimations/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93850F32EC2E487EBB5FBEA7 /* libPods-AirshipAnimations.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AirshipAnimations.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B355CA9A2491EA916268E2CC /* Pods-AirshipAnimations-tvOS.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirshipAnimations-tvOS.staging.xcconfig"; path = "Target Support Files/Pods-AirshipAnimations-tvOS/Pods-AirshipAnimations-tvOS.staging.xcconfig"; sourceTree = "<group>"; };
 		BD14A567B9BC715EE7A7BFDA /* libPods-AirshipAnimations-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AirshipAnimations-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C193431952D34C34F9116CE8 /* Pods-AirshipAnimations-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirshipAnimations-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-AirshipAnimations-tvOSTests/Pods-AirshipAnimations-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C4C6D8D964EDFBF79C2FB15D /* libPods-AirshipAnimations-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AirshipAnimations-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D53A47F51A3A23E17E6A2974 /* Pods-AirshipAnimations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirshipAnimations.release.xcconfig"; path = "Target Support Files/Pods-AirshipAnimations/Pods-AirshipAnimations.release.xcconfig"; sourceTree = "<group>"; };
 		D64CE28CC8BEBF667349301B /* Pods-AirshipAnimations-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirshipAnimations-tvOS.release.xcconfig"; path = "Target Support Files/Pods-AirshipAnimations-tvOS/Pods-AirshipAnimations-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		D908F4112577031D00A497C8 /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F4834C8DD3EEB86BD93603FA /* Pods-AirshipAnimations-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirshipAnimations-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-AirshipAnimations-tvOS/Pods-AirshipAnimations-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F8B1DCCF9BBA1FA40A17E25A /* Pods-AirshipAnimations.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirshipAnimations.staging.xcconfig"; path = "Target Support Files/Pods-AirshipAnimations/Pods-AirshipAnimations.staging.xcconfig"; sourceTree = "<group>"; };
 		F9B433471A6C6F8FAE026B21 /* Pods-AirshipAnimations-AirshipAnimationsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirshipAnimations-AirshipAnimationsTests.release.xcconfig"; path = "Target Support Files/Pods-AirshipAnimations-AirshipAnimationsTests/Pods-AirshipAnimations-AirshipAnimationsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +138,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				D908F4112577031D00A497C8 /* AppCenter-Config.plist */,
 			);
 			name = AirshipAnimations;
 			sourceTree = "<group>";
@@ -193,8 +200,11 @@
 				D64CE28CC8BEBF667349301B /* Pods-AirshipAnimations-tvOS.release.xcconfig */,
 				C193431952D34C34F9116CE8 /* Pods-AirshipAnimations-tvOSTests.debug.xcconfig */,
 				513E756CFFD1CCA7207FFD24 /* Pods-AirshipAnimations-tvOSTests.release.xcconfig */,
+				F8B1DCCF9BBA1FA40A17E25A /* Pods-AirshipAnimations.staging.xcconfig */,
+				1E5DC653C14D35AB6C7C45E4 /* Pods-AirshipAnimations-AirshipAnimationsTests.staging.xcconfig */,
+				B355CA9A2491EA916268E2CC /* Pods-AirshipAnimations-tvOS.staging.xcconfig */,
+				1326F6C5F63297EC70960F7A /* Pods-AirshipAnimations-tvOSTests.staging.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -295,6 +305,7 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1120;
+						ProvisioningStyle = Manual;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -342,6 +353,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D908F4122577031D00A497C8 /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,7 +667,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = AirshipAnimations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -664,8 +678,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airship.reactnativedeploymentguide;
 				PRODUCT_NAME = AirshipAnimations;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -678,7 +693,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AirshipAnimations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -686,8 +703,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airship.reactnativedeploymentguide;
 				PRODUCT_NAME = AirshipAnimations;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -916,6 +934,158 @@
 			};
 			name = Release;
 		};
+		D910D2602577042100458A10 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Staging;
+		};
+		D910D2612577042100458A10 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B1DCCF9BBA1FA40A17E25A /* Pods-AirshipAnimations.staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AirshipAnimations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.airship.reactnativedeploymentguide;
+				PRODUCT_NAME = AirshipAnimations;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Staging;
+		};
+		D910D2622577042100458A10 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E5DC653C14D35AB6C7C45E4 /* Pods-AirshipAnimations-AirshipAnimationsTests.staging.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = AirshipAnimationsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirshipAnimations.app/AirshipAnimations";
+			};
+			name = Staging;
+		};
+		D910D2632577042100458A10 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B355CA9A2491EA916268E2CC /* Pods-AirshipAnimations-tvOS.staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "AirshipAnimations-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.AirshipAnimations-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Staging;
+		};
+		D910D2642577042100458A10 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1326F6C5F63297EC70960F7A /* Pods-AirshipAnimations-tvOSTests.staging.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "AirshipAnimations-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.AirshipAnimations-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirshipAnimations-tvOS.app/AirshipAnimations-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Staging;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -924,6 +1094,7 @@
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
 				00E356F71AD99517003FC87E /* Release */,
+				D910D2622577042100458A10 /* Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -933,6 +1104,7 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+				D910D2612577042100458A10 /* Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -942,6 +1114,7 @@
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
 				2D02E4981E0B4A5E006451C7 /* Release */,
+				D910D2632577042100458A10 /* Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -951,6 +1124,7 @@
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
 				2D02E49A1E0B4A5E006451C7 /* Release */,
+				D910D2642577042100458A10 /* Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -960,6 +1134,7 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+				D910D2602577042100458A10 /* Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
