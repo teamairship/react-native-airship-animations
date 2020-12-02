@@ -1,5 +1,5 @@
 /* eslint-disable react-native/no-inline-styles */
-import React, { FC, useEffect } from 'react';
+import React, {FC, useEffect} from 'react';
 import {
   Animated,
   Dimensions,
@@ -18,6 +18,7 @@ type Props = {
   containerStyle?: ViewStyle;
   textStyle?: TextStyle;
   activeTextColor?: string;
+  activeContainerStyles?: ViewStyle;
 };
 
 const width = Dimensions.get('screen').width - 32;
@@ -30,6 +31,7 @@ export const SegmentedControl: FC<Props> = ({
   containerStyle,
   textStyle,
   activeTextColor,
+  activeContainerStyles,
 }) => {
   const translateValue = (width - 4) / tabs?.length;
   const [tabTranslate] = React.useState(new Animated.Value(0));
@@ -72,6 +74,7 @@ export const SegmentedControl: FC<Props> = ({
               },
             ],
           },
+          activeContainerStyles,
         ]}
       />
       {tabs.map((tab: string, index: number) => {
